@@ -1,0 +1,41 @@
+body
+{
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    background-image: url(uzay.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: scroll;
+}
+.menu
+{
+    background-color: black;
+    color: white;
+    float: right;
+    list-style-type: none;
+    overflow: hidden;
+    padding-right: 13px;
+}
+.header
+{
+    color: cyan;
+    padding: 1.5rem;
+    text-align: center;
+    font-size: xx-large;
+}
+.hakkimda
+{
+    color: purple;
+    text-align: center;
+}
+.egitimlerim
+{
+    color: purple;
+    text-align: center;
+}
+.iletisim
+{
+    color: purple;
+    text-align: center;
+}
