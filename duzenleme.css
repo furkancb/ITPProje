@@ -1,0 +1,8 @@
+.menu
+   {
+      color: white;
+      float: right;
+      list-style-type: none;
+      overflow: hidden;
+      padding-right: 13px;
+   }
