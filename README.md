@@ -4,7 +4,7 @@
 # 2111502214
 # Bilgisayar Mühendisliği
 #
-# Ödevde şuana kadar HTML kullanıldı.
+# Ödevde şuana kadar HTML ve CSS kullanıldı.
 #
 # Ödev adımları:
 # -Git ve Github denemeleri yapıldı.
