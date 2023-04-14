@@ -1,41 +1,54 @@
-body
+*
 {
-    line-height: 1.5;
-    margin: 0;
     padding: 0;
-    background-image: url(uzay.jpg);
-    background-repeat: no-repeat;
-    background-position: top;
-    background-attachment: scroll;
+    margin: 0;
 }
-.menu
+.arkaplan
+{
+    background-image: url(uzay.jpg);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.logo
+{
+    width: 120px;
+    height: 80px;
+    margin: 3px 20px;
+}
+.üst
 {
     background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menü ul li
+{
+    display: inline-block;
+    list-style: none;
+    padding-right: 10px;
+    margin: 0 20px;
+}
+.menü ul li a
+{
+    text-decoration: none;
+    margin-right: 15px;
     color: white;
-    float: right;
-    list-style-type: none;
-    overflow: hidden;
-    padding-right: 13px;
+    font-size: 21px;
 }
-.header
+.menü ul li a:hover
 {
-    color: cyan;
-    padding: 1.5rem;
-    text-align: center;
-    font-size: xx-large;
+    color: blueviolet;
 }
-.hakkimda
+.içerik
 {
-    color: purple;
-    text-align: center;
-}
-.egitimlerim
-{
-    color: purple;
-    text-align: center;
-}
-.iletisim
-{
-    color: purple;
+    font-family:cursive;
+    font-size: 47px;
+    position: absolute;
+    color:aqua;
+    top: 40%;
+    left: 33%;
     text-align: center;
 }
