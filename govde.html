@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Furkan Cebe</title>
     <link href="css/duzenleme.css" rel="stylesheet">
-</head>
+    </head>
 <body>  
-    <section>
+    <section id="anasayfa">
     <div class="arkaplan">
         <div class="üst">
             <a href="file:///C:/Users/Asus/Desktop/proje/ITPProje/govde.html">
@@ -16,18 +16,81 @@
             </a>
             <div class="menü">
                 <ul>
-                <li><a href="#nsyf">Anasayfa</a></li>
-                <li><a href="#hkkmd">Hakkımda</a></li>
-                <li><a href="#ğtmlrm">Eğitimlerim</a></li>
-                <li><a href="#ltşm">İletişim</a></li>
+                <li><a href="#anasayfa">Anasayfa</a></li>
+                <li><a href="#hakkimda">Hakkımda</a></li>
+                <li><a href="#iletişim">İletişim</a></li>
                 </ul>
-            </div>
-            <div class="içerik">
-                <h1>FURKAN CEBE</h1>
-            </div>
+            </div>           
+        </div>
+        <div class="içerik">
+            <h1>FURKAN CEBE</h1>
         </div>
     </div>
-    </section>    
-  
+    </section>
+
+    <section id="hakkimda">
+        <h1 class="hbaslik">HAKKIMDA</h1>
+        <div class="container">
+            <div class="fotograf">
+                <img class="ben" src="css/ben.jpg" alt="Furkan Cebe"> 
+            </div>
+            <div class="yazi">
+                <p>
+                15 Aralık 2000 tarihinde İstanbul'un Maltepe ilçesinde doğdum.
+                İlkokul, lise ve üniversitede zorunlu olarak çok fazla okul değişikliği yaptım.
+                Şuanda 10. Okulum Bandırma Onyedi Eylül Üniversitesindeyim.
+                Aslında futbolcu olmak istiyordum ama maalesef olmadı.
+                İlk olarak Pamukkale Üniversitesi makine mühendisliğini kazandım.
+                Sonrasında bazı sebeplerden dolayı Bandırma Onyedi Eylül Üniversitesi bilgisayar mühendisliğine yatay geçiş yaptım.
+                </p>
+                <button class="cv">
+                    <a href="css//cv.pdf" target="_blank"><b>CV'mi görüntüle</b></a>
+                </button>
+            </div>
+            
+        </div>
+    </section>
+   
+    <section id="iletişim">
+        <div class="iletisim">
+            <h1 class="ibaslik">BANA ULAŞIN</h1>
+            <form action="#f.cebe.2000@gmail.com">
+                <div class="form">
+                    <input type="text" placeholder="Ad Soyad" name="Ad" class="input" required>
+                    <input type="email" placeholder="E-Posta" name="mail" class="input" required>        
+                </div>
+                <textarea name="mesaj" id="" placeholder="Mesajınızı Giriniz" cols="30" rows="10" class="input" required></textarea>
+                <input type="submit" value="Gönder">
+                <input type="reset" value="Formu Sil">
+            </form>
+                <div class="bilgiler">
+                    <h2>KONUM</h2>
+                    <P>Termal/Yalova</P>
+                    <h2>E-POSTA</h2>
+                    <P>f.cebe.2000@gmail.com</P>
+                </div>
+        </div>
+    </section>
+    <section id="sm">
+        <footer>
+            <div class="ikonlar">
+                <a class="gh" href="https://github.com/furkancb" target="_blank">
+                    <img src="githubicon.png" alt="furkan Cebe">
+                </a>
+                <a class="li" href="https://www.linkedin.com/in/furkancebe/" target="_blank">
+                    <img src="linkedinicon.png" alt="furkan Cebe">
+                </a>
+                <a class="ig" href="https://www.instagram.com/frkncb/">
+                    <img src="instagramicon.png" alt="frkncb">
+                </a>
+                <a class="tw" href="https://twitter.com/muhendisayyildz">
+                    <img src="twittericon.png" alt="mühendisayyıldız">
+                </a>
+            </div>
+            <div class="copyright">
+                Copyright © 2023 Furkan Cebe | Tüm Hakları Saklıdır.
+            </div>
+        </footer>
+    </section>
 </body>
 </html>
