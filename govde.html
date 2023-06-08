@@ -6,15 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Furkan Cebe</title>
     <link href="css/duzenleme.css" rel="stylesheet">
+    <script src="js/belirtme.js"></script>
     </head>
 <body>  
-    <section id="anasayfa">
-    <div class="arkaplan">
-        <div class="üst">
+    <section id="homepage">
+    <div class="background">
+        <div class="top">
             <a href="file:///C:/Users/Asus/Desktop/proje/ITPProje/govde.html">
                 <img class="logo" src="logo.png" alt="uzay" title="UniversEngineer" >
             </a>
-            <div class="menü">
+            <div class="menu">
                 <ul>
                 <li><a href="#anasayfa">Anasayfa</a></li>
                 <li><a href="#hakkimda">Hakkımda</a></li>
@@ -22,19 +23,19 @@
                 </ul>
             </div>           
         </div>
-        <div class="içerik">
+        <div class="content">
             <h1>FURKAN CEBE</h1>
         </div>
     </div>
     </section>
 
-    <section id="hakkimda">
-        <h1 class="hbaslik">HAKKIMDA</h1>
+    <section id="aboutme">
+        <h1 class="atitle">HAKKIMDA</h1>
         <div class="container">
-            <div class="fotograf">
-                <img class="ben" src="css/ben.jpg" alt="Furkan Cebe"> 
+            <div class="photo">
+                <img class="i" src="css/ben.jpg" alt="Furkan Cebe"> 
             </div>
-            <div class="yazi">
+            <div class="article">
                 <p>
                 15 Aralık 2000 tarihinde İstanbul'un Maltepe ilçesinde doğdum.
                 İlkokul, lise ve üniversitede zorunlu olarak çok fazla okul değişikliği yaptım.
@@ -51,9 +52,9 @@
         </div>
     </section>
    
-    <section id="iletişim">
-        <div class="iletisim">
-            <h1 class="ibaslik">BANA ULAŞIN</h1>
+    <section id="communication">
+        <div class="communication">
+            <h1 class="ctitle">BANA ULAŞIN</h1>
             <form action="#f.cebe.2000@gmail.com">
                 <div class="form">
                     <input type="text" placeholder="Ad Soyad" name="Ad" class="input" required>
@@ -63,27 +64,33 @@
                 <input type="submit" value="Gönder">
                 <input type="reset" value="Formu Sil">
             </form>
-                <div class="bilgiler">
+                <div class="informations">
                     <h2>KONUM</h2>
                     <P>Termal/Yalova</P>
                     <h2>E-POSTA</h2>
                     <P>f.cebe.2000@gmail.com</P>
+                    <br>
+                    <p>Siteye giriş zamanınız:</p>
+                    <script>
+                        let now = new Date();
+                        document.write(now.toLocaleString());
+                    </script>
                 </div>
         </div>
     </section>
-    <section id="sm">
+    <section id="socialmedia">
         <footer>
-            <div class="ikonlar">
+            <div class="icons">
                 <a class="gh" href="https://github.com/furkancb" target="_blank">
                     <img src="githubicon.png" alt="furkan Cebe">
                 </a>
                 <a class="li" href="https://www.linkedin.com/in/furkancebe/" target="_blank">
                     <img src="linkedinicon.png" alt="furkan Cebe">
                 </a>
-                <a class="ig" href="https://www.instagram.com/frkncb/">
+                <a class="ig" href="https://www.instagram.com/frkncb/" target="_blank">
                     <img src="instagramicon.png" alt="frkncb">
                 </a>
-                <a class="tw" href="https://twitter.com/muhendisayyildz">
+                <a class="tw" href="https://twitter.com/muhendisayyildz" target="_blank">
                     <img src="twittericon.png" alt="mühendisayyıldız">
                 </a>
             </div>
