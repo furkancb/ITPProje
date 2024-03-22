@@ -17,3 +17,9 @@ Bilgisayar Mühendisliği
  -Git ve Github denemeleri yapıldı.
  
  -Anasayfa, hakkımda ve iletişim bölümleri eklendi.
+
+Proje ve ders sonucu:
+
+Proje notu: 65
+
+Ders AA ile geçildi
