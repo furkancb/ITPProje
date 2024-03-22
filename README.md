@@ -7,5 +7,5 @@
 # Ödevde şuana kadar HTML, CSS ve JavaScript kullanıldı.
 #
 # Ödev adımları:
-# -Git ve Github denemeleri yapıldı.
-# -Anasayfa, hakkımda ve iletişim bölümleri eklendi.
+ -Git ve Github denemeleri yapıldı.
+ -Anasayfa, hakkımda ve iletişim bölümleri eklendi.
